@@ -17,7 +17,7 @@ abstract class Program
         }
         catch (NullReferenceException)
         {
-            Console.WriteLine("Introduzca un id valido, numero del 1 al 826");
+            Console.WriteLine("Introduzca un id valido, numero del 1 al 826 (summer tiene el id 3)");
         }
         catch (Exception ex)
         {
