@@ -39,11 +39,12 @@ abstract class Program
 
             // Leer el contenido de la respuesta como una cadena JSON
             string jsonContent = await response.Content.ReadAsStringAsync();
-
-            // Procesar la cadena JSON for RespuestaPersonaje
+            
+            // Procesar la cadena JSON por CharacterResponse
             CharacterResponse? characterData =
                 Newtonsoft.Json.JsonConvert.DeserializeObject<CharacterResponse>(jsonContent);
 
+            // Llamo a la otra funcion para tener todos los episodios en los que aparece el personaje
             string episodeInfo = await EpisodeGetter(characterData.Episode);
 
             // Muestro los datos del personaje
@@ -62,6 +63,7 @@ abstract class Program
         }
     }
 
+    // Función para mostrar todos los episodios en los que aparece el personaje
     private static async Task<string> EpisodeGetter(List<string> episodeList)
     {
         using (HttpClient cliente = new HttpClient())
@@ -77,7 +79,7 @@ abstract class Program
                 // Leer el contenido de la respuesta como una cadena JSON
                 string contenidoJson = await respuesta.Content.ReadAsStringAsync();
 
-                // Procesar la cadena JSON for RespuestaPersonaje
+                // Procesar la cadena JSON por EpisodeResponse
                 EpisodeResponse? episodeData =
                     Newtonsoft.Json.JsonConvert.DeserializeObject<EpisodeResponse>(contenidoJson);
 
