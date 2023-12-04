@@ -1,0 +1,17 @@
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\bin\Debug\net6.0\ApiRick.exe
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\bin\Debug\net6.0\ApiRick.deps.json
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\bin\Debug\net6.0\ApiRick.runtimeconfig.json
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\bin\Debug\net6.0\ApiRick.dll
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\bin\Debug\net6.0\ApiRick.pdb
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.csproj.AssemblyReference.cache
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.AssemblyInfoInputs.cache
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.AssemblyInfo.cs
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.csproj.CoreCompileInputs.cache
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.csproj.CopyComplete
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.dll
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\refint\ApiRick.dll
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.pdb
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ApiRick.genruntimeconfig.cache
+C:\Users\guill\RiderProjects\ApiRick\ApiRick\obj\Debug\net6.0\ref\ApiRick.dll

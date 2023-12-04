@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yAAw3x/kHZG4+yGbNUSKGYfLSXqCnb/XcfrtLp/ijq2DmTPMtc1vIK6LhponOyJ3s0d/Ee8pB+1NiLb5OVor+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guill\\RiderProjects\\ApiRick\\ApiRick\\ApiRick.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guill\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
