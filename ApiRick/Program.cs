@@ -6,14 +6,9 @@ abstract class Program
     {
         try
         {
-            bool keepActive = true;
-            while (keepActive)
-            {
-                Console.WriteLine("Introduzca el id del personaje del que quiera sacar la informacion: (1:826)");
-                string characterId = Console.ReadLine();
-                await CharacterInfoGetter(int.Parse(characterId));
-                keepActive = false;
-            }
+            Console.WriteLine("Introduzca el id del personaje del que quiera sacar la informacion: (1:826)");
+            string characterId = Console.ReadLine();
+            await CharacterInfoGetter(int.Parse(characterId));
         }
         catch (NullReferenceException)
         {
@@ -48,7 +43,7 @@ abstract class Program
             string episodeInfo = await EpisodeGetter(characterData.Episode);
 
             // Muestro los datos del personaje
-            Console.WriteLine("\n|---------------------------|\n" +
+            Console.WriteLine("|---------------------------|\n" +
                               $"id: {characterData.Id}\n" +
                               $"name: {characterData.Name}\n" +
                               $"status: {characterData.Status}\n" +
@@ -59,7 +54,6 @@ abstract class Program
                               $"location: {characterData.Location.Name}\n" +
                               "episodes:\n" +
                               $"{episodeInfo}");
-
         }
     }
 
